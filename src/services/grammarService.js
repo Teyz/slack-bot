@@ -11,7 +11,6 @@ exports.checkText = async (textToCheck) => {
         text: textToCheck,
         language: 'fr'
     });
-    checkText.matches = undefined;
     if(checkText.matches === undefined){
         console.log('error');
     } else {
